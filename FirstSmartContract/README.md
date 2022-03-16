@@ -1,15 +1,9 @@
-# Basic Sample Hardhat Project
+# Basic Sample Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+Hi guys! Thanks you for following the tutorial, as i said there, dont forget to change the file .changethisnameforenv -> .env and put there your credentials.
 
-Try running some of the following tasks:
+tu run the project and test that everything is okey, run the following command :
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+npx hardhat run scripts/sample-script.js --network rinkeby
+
+That's all! (:
